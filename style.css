@@ -25,6 +25,13 @@ div.logo{
 main{
   min-height: 100%;
 }
+span.icon{
+  width: 1rem;
+  height: 1rem;
+  display: inline-block;
+  background: url(./assets/exclamation-mark.svg);
+  margin: 0 0.5rem;
+}
 .btns{
   display: flex;
   flex-direction: column;
