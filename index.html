@@ -15,15 +15,18 @@
 </head>
 
 <body>
-  <header>
-    <div class="logo">
-      <img src="./assets/Vectorlogo.png" alt="logo" class="img-logo">
+  <header class="text-center">
+    <div class="header-container">
+      <img src="./assets/alura.svg" alt="logo" class="img-logo">
       <h1>Encriptador Online</h1>
     </div>
   </header>
-  <main>
+  <section class="container">
     <div class="text-area">
-      <textarea id="text-input" rows="5" placeholder="Ingrese texto a encriptar"></textarea>
+      <textarea id="text-input" rows="10" placeholder="Ingrese texto a encriptar"></textarea>
+    </div>
+    <div>
+      <div class="output"></div>
     </div>
     <div>
       <div><span class="icon"></span><small>letras minusculas y sin acentos</small></div>
@@ -32,13 +35,10 @@
         <button>Desencriptar</button>
       </div>
     </div>
-    <div>
-      <div class="output"></div>
-    </div>
-    <footer class="footer">
-      <p>by Rychowiak</p>
-    </footer>
-  </main>
+  </section>
+  <footer class="footer">
+    <p>by Rychowiak</p>
+  </footer>
   <script src="./index.js"></script>
 </body>
 
