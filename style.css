@@ -32,17 +32,26 @@ header{
 .text-center{
   text-align: center;
 }
+.container{
+  margin-inline: auto;
+  width: min(90%, 70.5rem);
+}
+.container--box{
+  display: grid;
+  grid-template-columns: auto 25%;
+  gap: 1rem;
+}
+
+
+
 div.logo{
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
+
 .img-logo{
   color: white;
-}
-.container{
-  margin-inline: auto;
-  width: min(90%, 70.5rem);
 }
 span.icon{
   width: 1rem;
