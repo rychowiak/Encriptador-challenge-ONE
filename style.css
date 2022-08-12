@@ -83,6 +83,11 @@ button{
   border-radius: 1rem;
   width: 30em;
   height: 3rem;
+  cursor: pointer;
+}
+button:focus{
+  background-color: var(--clr-primary);
+  color: white;
 }
 textarea {
   border: none;
